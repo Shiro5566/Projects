@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Kikoua.Tv About Me</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+	<link rel="stylesheet" href="css/about-me.css">
+	</head>
+	<body>
+		<div id="frame">
+			<nav>
+				<!-- Navbar that holds the website logo, links to the 3 webpages as well as 3 iconlinks to social media -->
+				<div id="nav-bar">
+					<div id="logo">
+						<img src="pictures/logo.png" id="logo-img" alt="logo">
+					</div>
+					<div id="nav-links">
+						<div id="nav-link-centering">
+							<div class="nav-menu">
+								<a href="homepage.html" class="buttons-color"> Home Page </a>
+							</div>
+							<div class="nav-menu">
+								<a href="schedule.html" class="buttons-color"> Schedule </a>
+							</div>
+							<div class="nav-menu">
+								<a href="about-me.html" class="buttons-color"> About Me </a>
+							</div>
+						</div>
+					</div>
+					<div class="icon-links">
+						<div class="icons">
+							<a href="https://discord.gg/mMA8RmskwE">
+								<img src="icons/discord-icon.png" class="icons-size" alt="discord icon link">
+							</a>
+						</div>
+						<div class="icons">
+							<a href="https://www.youtube.com/c/Jamsdolp/featured">
+								<img src="icons/youtube-icon.png" class="icons-size" alt="youtube icon link">
+							</a>
+						</div>
+						<div class="icons">
+							<a href="https://www.twitch.tv/shiroogames">
+								<img src="icons/twitch-icon.png" class="icons-size" alt="twitch icon link">
+							</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<header>
+				<!-- Header with a title and a short description of what the website is about -->
+				<div id="header-background">
+					<div id="header">
+						<h1> About Me </h1>
+						<p> Hello everyone! I am Kikoua, I'ma 21 year old guy who enjoys playing a variety of games, watching anime, and hanging out with friends. I wish
+							to focus on creating Youtube videos with funny clips that I think others would enjoy and also do streams with friends so I can interact with
+							the community which supports me.
+						</p>
+					</div>
+				</div>
+			</header>
+			<main>
+				<section>
+					<div id="top-main-background">
+						<div class="main">
+							<h1> Equipment List </h1>
+							<ul id="unordered-lists">
+								<a href="https://www.newegg.com/core-i5-7th-gen-intel-core-i5-7400/p/N82E16819117731?Description=i5%207400&cm_re=i5_7400-_-19-117-731-_-Product&quicklink=true">
+									<li>CPU: CPU #1 Intel(R) Core(TM) i5-7400 CPU @ 3.00GHz, 3000 MHz</li>
+								</a>
+								<a href="https://www.newegg.com/corsair-8gb-240-pin-ddr3-sdram/p/N82E16820233218?Description=8%20gb&cm_re=8_gb-_-20-233-218-_-Product&quicklink=true">
+									<li>Ram: 16gb, two 8gb sticks</li>
+								</a>
+								<a href="https://www.newegg.com/msi-geforce-gtx-1060-gtx-1060-gaming-x-6g/p/N82E16814127963?Description=nvidia%20geforce%20gtx%201060%206gb&cm_re=nvidia_geforce%20gtx%201060%206gb-_-14-127-963-_-Product&quicklink=true">
+									<li>Videocard: NVIDIA GeForce GTX 1060 6GB </li>
+								</a>
+									<li>OS: Windows 10</li>
+								<a href="https://www.newegg.com/blue-microphones-snowballiceblack-usb-connector/p/N82E16836431030">
+									<li>Microphone: Blue Snowball</li>
+								</a>
+								<a href="https://www.amazon.com/gp/product/B07F7T8J9P/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1">
+									<li>Mouse: Razer DeathAdder mouse</li>
+								</a>
+							</ul>
+						</div>
+					</div>
+				</section>
+				<section>
+					<div id="bottom-main-background">
+						<div class="main">
+							<h1> Contact Info </h1>
+							<p> You can contact me via the following methods:</p>
+							<address>
+								Email <a href="mailto:kikoua@gmail.com">kikoura@gmail.com</a><br>
+								Phone <a href="tel:+12345678900">(234)567-8900</a>
+							</address>
+						</div>
+					</div>
+				</section>
+			</main>
+			<footer>
+				<div id="footer">
+					<!-- A footer containing a very 'Legal' copyright as well as the same iconlinks as navbar as to match with the navbar -->
+					<div id="copyright">
+						<p id="copyrighttext">KIKOUA.TV &copy; 2022 </p>
+					</div>
+					<div class="icon-links">
+						<div class="icons">
+							<a href="https://discord.gg/mMA8RmskwE">
+								<img src="icons/discord-icon.png" class="icons-size" alt="discord icon link">
+							</a>
+						</div>
+						<div class="icons">
+							<a href="https://www.youtube.com/c/Jamsdolp/featured">
+								<img src="icons/youtube-icon.png" class="icons-size" alt="youtube icon link">
+							</a>
+						</div>
+						<div class="icons">
+							<a href="https://www.twitch.tv/shiroogames">
+								<img src="icons/twitch-icon.png" class="icons-size" alt="twitch icon link">
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

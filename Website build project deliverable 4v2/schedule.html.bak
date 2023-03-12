@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+	<meta charset="UTF-8">
+	<title>Kikoua.Tv Schedule</title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link href='https://fonts.googleapis.com/css?family=Merriweather' rel='stylesheet'>
+	<link rel="stylesheet" href="css/schedule.css">
+	</head>
+	<body>
+		<div id="frame">
+			<nav>
+				<!-- Navbar that holds the website logo, links to the 3 webpages as well as small icon hyperlinks to the social media
+				As a side note all links besides the website nav links are placeholders, and while they do work, they aren't the intended ones
+				since they don't actually exist at the moment.-->
+				<div id="nav-bar">
+					<div id="logo">
+						<img src="pictures/logo.png" id="logo-img" alt="logo">
+					</div>
+					<div id="nav-links">
+						<div id="nav-link-centering">
+							<div class="nav-menu">
+								<a href="homepage.html" class="buttons-color"> Home Page </a>
+							</div>
+							<div class="nav-menu">
+								<a href="schedule.html" class="buttons-color"> Schedule </a>
+							</div>
+							<div class="nav-menu">
+								<a href="about-me.html" class="buttons-color"> About Me </a>
+							</div>
+						</div>
+					</div>
+					<div class="icon-links">
+						<div class="icons">
+							<a href="https://discord.gg/mMA8RmskwE">
+								<img src="icons/discord-icon.png" class="icons-size" alt="discord icon link">
+							</a>
+						</div>
+						<div class="icons">
+							<a href="https://www.youtube.com/c/Jamsdolp/featured">
+								<img src="icons/youtube-icon.png" class="icons-size" alt="youtube icon link">
+							</a>
+						</div>
+						<div class="icons">
+							<a href="https://www.twitch.tv/shiroogames">
+								<img src="icons/twitch-icon.png" class="icons-size" alt="twitch icon link">
+							</a>
+						</div>
+					</div>
+				</div>
+			</nav>
+			<header>
+				<!-- Header that explains what the webpage content is going to provide -->
+				<div id="header-background">
+					<div id="header">
+						<h1> Streaming Schedule </h1>
+						<p> Here you will find both my Twitch and Youtube streaming schedules.</p>
+					</div>
+				</div>
+			</header>
+			<main>
+				<!-- Main portion of the webpage listing the upload and streaming schedule to the viewers fulfilling the point of the webpage -->
+				<div id="main-content">
+					<div class="stream-schedules">
+						<p> Youtube Schedule </p>
+						<ul class="unordered-lists">
+							<li>Monday: N/A</li>
+							<li>Tuesday: N/A</li>
+							<li>Wednesday: One video 1pm</li>
+							<li>Thursday: N/A</li>
+							<li>Friday: N/A</li>
+							<li>Saturday: N/A</li>
+							<li>Sunday: One video 2pm</li>
+						</ul>
+					</div>
+					<div class="stream-schedules">
+						<h1> Twitch Schedule </h1>
+						<ul class="unordered-lists">
+							<li>Monday: 5pm</li>
+							<li>Tuesday: 5pm</li>
+							<li>Wednesday: N/A</li>
+							<li>Thurdsay: N/A</li>
+							<li>Friday: 3pm</li>
+							<li>Saturday: 3pm</li>
+							<li>Sunday: N/A</li>
+						</ul>
+					</div>
+				</div>
+			</main>
+			<footer>
+				<!-- A footer containing a very 'Legal' copyright and copying the style of the nav bar, the same 3 icon hyperlinks to social media -->
+				<div id="footer">
+					<div id="copyright">
+						<p id="copyrighttext">KIKOUA.TV &copy; 2022 </p>
+					</div>
+					<div class="icon-links">
+						<div class="icons">
+							<a href="https://discord.gg/mMA8RmskwE">
+								<img src="icons/discord-icon.png" class="icons-size" alt="discord icon link">
+							</a>
+						</div>
+						<div class="icons">
+							<a href="https://www.youtube.com/c/Jamsdolp/featured">
+								<img src="icons/youtube-icon.png" class="icons-size" alt="youtube icon link">
+							</a>
+						</div>
+						<div class="icons">
+							<a href="https://www.twitch.tv/shiroogames">
+								<img src="icons/twitch-icon.png" class="icons-size" alt="twitch icon link">
+							</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>
